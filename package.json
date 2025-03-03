@@ -1,0 +1,45 @@
+{
+  "name": "@green-api/whatsapp-demo-chatgpt",
+  "version": "1.0.0",
+  "description": "Demo chatbot which is based on the @green-api/whatsapp-chatgpt library",
+  "main": "index.js",
+  "scripts": {
+    "start:debug": "cross-env DEBUG=@green-api/whatsapp-bot npx tsx bot.ts",
+    "start": "cross-env DEBUG= npx tsx bot.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/green-api/whatsapp-demo-chatgpt-js.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "api",
+    "library",
+    "green-api",
+    "chat",
+    "messaging",
+    "chatbot",
+    "openai",
+    "AI",
+    "gpt",
+    "chatgpt"
+  ],
+  "author": "GREEN-API",
+  "license": "CC-BY-ND-4.0",
+  "bugs": {
+    "url": "https://github.com/green-api/whatsapp-demo-chatgpt-js/issues"
+  },
+  "homepage": "https://github.com/green-api/whatsapp-demo-chatgpt-js#readme",
+  "dependencies": {
+    "@green-api/whatsapp-chatgpt": "^1.0.0",
+    "dotenv": "^16.4.7"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "cross-env": "^7.0.3"
+  }
+}
